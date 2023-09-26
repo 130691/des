@@ -1,0 +1,12 @@
+def compra(producto,precio):
+    print(f"Buenos días usted quiere comprar una {producto} con un precio de {precio} dolares.")
+compra("parlante beta3", 680)
+compra("proyector epson", 900)
+
+def calcular_descuento(producto, precio):
+    descuento = precio * 0.1  # Supongamos un descuento del 10%
+    precio_con_descuento = precio - descuento
+    print(f"Tenemos una {producto} con un precio original de ${precio:.2f} dolares.")
+    print(f"Si usted la compra ahora le ayudamos con un descuento del 10%, el precio final es de ${precio_con_descuento:.2f} dolares.")
+calcular_descuento("parlante beta3", 680)
+calcular_descuento("proyector epson", 900)
